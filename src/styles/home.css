@@ -1,8 +1,85 @@
-img{
-	padding: 0;
-    margin-left: 20px;
-	height: 50px;
-	width: 60px;
-	-webkit-transition : all 0.3s ease-out;
-	transition : all 0.3s ease-out;
+.hero{
+	height: 100vh;
+	background: linear-gradient( rgba(0, 0, 0, 0.571), rgba(0, 0, 0, 0.5)), url("https://www.scj.go.jp/en/sca/img/conference_20th_1.jpg");
+  z-index: 1;
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
 }
+.Container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header {
+    text-align: center;
+  }
+  .tagline {
+    font-weight: 500;
+	font-size:45px;
+	color: #FFF;
+  margin-top: 20px;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+	text-shadow: 1px 1px 4px #000000;
+}
+#about{
+  height: 100vh;
+}
+#about img{
+  width: 100%;
+  height: 92%;
+  margin-left: -20px;
+  position:relative;
+}
+
+
+#speakers{
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.751),  rgba(0, 0, 0, 0.788)), url("https://www.thedigitaltransformationpeople.com/wp-content/uploads/2019/03/tech-conference-networking-tips.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:1;
+  padding: 140px 0px 125px 0px;
+  width: 100vw;
+  color: #fff;
+  margin-left: -130px;
+}
+#speakers h1{
+  margin-top: -55px;
+}
+#speakers .row{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+.serviceBox{text-align: center;margin-top: 150px;position: relative;z-index: 1; margin-bottom: 121px;}
+.serviceBox .service-icon{width: 78px;height: 78px;border-radius:3px;background: #fff;margin: 0 auto;position: absolute;top: -34px;left: 0;right: 0;z-index: 1;transition: all 0.3s ease-out 0s;}
+.serviceBox:hover .service-icon{transform: rotate(45deg);}
+.serviceBox .service-icon span{display: inline-block;width: 60px;height: 60px;line-height: 60px;border-radius:3px;background: #727cb6;font-size: 30px;color: #fff;margin: auto;position: absolute;top: 0;left: 0;bottom: 0;right: 0;transition: all 0.3s ease-out 0s;}
+.serviceBox .service-icon span i{transition: all 0.3s ease-out 0s;}
+.serviceBox:hover .service-icon span i{transform: rotate(-45deg);}
+.serviceBox .service-content{background: #fff;border: 1px solid #e7e7e7;border-radius: 3px;padding: 55px 15px;position: relative;}
+.serviceBox .service-content:before{content: "";display: block;width: 80px;height: 80px;border: 1px solid #e7e7e7;border-radius: 3px;margin: 0 auto;position: absolute;top: -37px;left: 0;right: 0;z-index: -1;transition: all 0.3s ease-out 0s;}
+.serviceBox:hover .service-content:before{transform: rotate(45deg);}
+.serviceBox .title{font-size: 17px;font-weight: 500;color: #324545;text-transform: uppercase;margin: 0 0 25px 0;position: relative;transition: all 0.3s ease-out 0s;}
+.serviceBox:hover .title{color: #727cb6;}
+.serviceBox .description{font-size: 14px;font-weight: 500;line-height: 24px;margin-bottom: 0;}
+.serviceBox .read-more{display: block;width: 40px;height: 40px;line-height: 38px;border-radius: 50%;background: #fff;border: 1px solid #e7e7e7;font-size: 14px;color: #c4c2c2;margin: 0 auto;position: absolute;bottom: -17px;left: 0; right: 0;transition: all 0.3s ease-out 0s;}
+.serviceBox .read-more:hover{border: 1px solid #727cb6;color: #727cb6;text-decoration: none;}
+.serviceBox.green .service-icon span{ background: #008b8b; }
+.serviceBox.blue .service-icon span{ background: #3498db; }
+.serviceBox.orange .service-icon span{ background: #e67e22; }
+.serviceBox.green:hover .title{ color: #008b8b; }
+.serviceBox.blue:hover .title{ color: #3498db; }
+.serviceBox.orange:hover .title{ color: #e67e22; }
+
+.serviceBox:hover .read-more{border: 1px solid #727cb6;color: #727cb6;}
+.serviceBox.green:hover .read-more{border: 1px solid #008b8b;color: #008b8b;}
+.serviceBox.blue:hover .read-more{border: 1px solid #3498db;color: #3498db;}
+.serviceBox.orange:hover .read-more{border: 1px solid #e67e22;color: #e67e22;}
