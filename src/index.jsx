@@ -5,7 +5,6 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 //components
 import Home from './components/home';
 import Header from './components/header';
-import Footer from './components/footer';
 import Day1 from './components/day1';
 import Day2 from './components/day2';
 import Day3 from './components/day3';
@@ -28,7 +27,6 @@ export default function App(){
         <Route path="/schedule/day2" element={<Day2/>}/>
         <Route path="/schedule/day3" element={<Day3/>}/>
       </Routes>
-      <Footer/>
     </BrowserRouter>
   );
 }

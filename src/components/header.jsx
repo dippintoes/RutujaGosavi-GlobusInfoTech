@@ -15,9 +15,9 @@ function Header(){
                         </button>
                         <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav mx-lg-auto">
-                            <a class="nav-item nav-link active" href="#" aria-current="page">Home</a>
-                            <a class="nav-item nav-link" href="#about">About</a>
-                            <a class="nav-item nav-link" href="#speakers">Speakers</a>
+                            <a class="nav-item nav-link active" href="/" aria-current="page">Home</a>
+                            <a class="nav-item nav-link" href="/#mainabout">About</a>
+                            <a class="nav-item nav-link" href="/#speakers">Speakers</a>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#schedule" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schedule</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
