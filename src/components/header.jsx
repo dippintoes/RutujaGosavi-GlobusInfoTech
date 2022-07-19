@@ -5,7 +5,7 @@ import logo from '../images/logo.png';
 function Header(){    
     return(
         <>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-0 py-3" id="navbar">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark px-0 py-3" id="navbar">
                     <div class="container-xl">
                         <a class="navbar-brand" href="#">
                         <img src={logo} class="h-12" alt="..."/>
@@ -18,25 +18,25 @@ function Header(){
                             <a class="nav-item nav-link active" href="/" aria-current="page">Home</a>
                             <a class="nav-item nav-link" href="/#mainabout">About</a>
                             <a class="nav-item nav-link" href="/#speakers">Speakers</a>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#schedule" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schedule</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Schedule</a>
+                                <div class="dropdown-menu">
                                     <a class="dropdown-item" href="/schedule/day1">Day 1</a>
                                     <a class="dropdown-item" href="/schedule/day2">Day 2</a>
-                                    <a class="dropdown-item" href="/schedule/day3">Day 3</a>
+                                    <a class="dropdown-item" href="/schedule/day3">Day 3(Awarding ceremony)</a>
                                 </div>
-                            </li>
-                            <a class="nav-item nav-link" href="#">Contact</a>
+                            </div>          
+                            <a class="nav-item nav-link" href="#footer">Contact</a>
                         </div>
                         
                         <div class="d-flex align-items-lg-center mt-3 mt-lg-0">
-                            <a href="#" class="btn btn-sm btn-light w-full w-lg-auto">
+                            <a href="/register" type="button" class="btn p-2 btn-sm btn-light w-full btn-rounded w-lg-auto">
                             Register
                             </a>
                         </div>
                         </div>
                     </div>
-                </nav>
+            </nav>
         </>
   );
 }

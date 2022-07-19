@@ -131,51 +131,73 @@ function Day3(){
             </div>
 
             {/*footer */}
-            <div class="section5" id="newsletter">
+            <div class="container-fluid pt-2">
+                <div class="section5">
                     <section>
                         <h1 class="title inline-photo2 show-on-scroll2">Subscribe to our newsletter</h1>
                         <p class="inline-photo show-on-scroll">Get latest news regarding upcoming conferences, stay in touch... </p>
                     </section>
                     <section>
-                        <button class="btn2">Subscribe</button>
+                    <button type="button" class="btn btn2 p-3 btn-light btn-rounded">Subscribe</button>
                     </section>
                 </div>
-                <footer>
-                    <div class="footer" id="footer">
-                        <section class="text-secondary">
-                            <h3>2ND LCUP - GE&RA</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        </section>
-                        <section>
-                            <h3>LINKS</h3>
-                            <a href="#">Home</a>
-                            <a href="#">About Us</a>
-                            <a href="#">Speakers</a>
-                            <a href="#">Schedule</a>
-                            <a href="#">Contact Us</a>
-                        </section>
-                        <section>
-                            <h3>OTHER</h3>
-                            <a href="#">Privacy Policy</a>
-                            <a href="#">Terms & Conditions</a>
-                            <a href="#">Cookie Policy</a>
-                        </section>
-                        <section>
-                        <h3>ANY QUESTIONS?</h3>
-                            <a href="emailto:support@lcupgenra.com"><span><i class="fa fa-envelope"></i></span><span>support@lcupgenra.com</span></a>
-                            <a href="tel:xxxxxxxxx"><span><i class="fa fa-phone"></i></span><span>(+x)-xxx-xxxx-xxxxx</span></a>
-                            <div class="icons d-flex flex-row justify-content-around">
-                                <a href="#"><FaFacebook></FaFacebook></a>
-                                <a href="#"><FaLinkedin></FaLinkedin></a>
-                                <a href="#"><FaInstagram></FaInstagram></a>
-                                <a href="#"><FaTwitter></FaTwitter></a>
+                <footer class="footer_area section_padding_130_0" id="footer">
+                        <div class="container">
+                            <div class="row">
+                            <div class="col-12 col-sm-6 col-lg-4">
+                                <div class="single-footer-widget section_padding_0_130">
+                                <div class="footer-logo mb-3"></div>
+                                <p> INTERNATIONAL RESEARCH CONFERENCE</p>
+                                <div class="copywrite-text mb-5">
+                                    <p class="mb-0">2ND LCUP - GE&RA</p>
+                                </div>
+                                <div class="footer_social_area"><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"><FaFacebook></FaFacebook></a><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin"><FaLinkedin></FaLinkedin></a><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram"><FaInstagram></FaInstagram></a><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter"><FaTwitter></FaTwitter></a></div>
+                                </div>
                             </div>
-                        </section>
-                    </div>
-                </footer>
-                <div class="sub-footer" id="foot">
-                Copyright ©2022 All rights reserved | 2ND LCUP - GE&RA
-                </div>
+                              <div class="col-12 col-sm-6 col-lg">
+                                <div class="single-footer-widget section_padding_0_130">
+                                  <h5 class="widget-title">About</h5>
+                                  <div class="footer_menu">
+                                    <ul>
+                                    <li><a href="/#mainabout">About Us</a></li>
+                                    <li><a href="/#speakers">Speakers</a></li>
+                                    <li><a href="#">Terms &amp; Policy</a></li>
+                                    <li><a href="#">Community</a></li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+                              <div class="col-12 col-sm-6 col-lg">
+                                <div class="single-footer-widget section_padding_0_130">
+                                <h5 class="widget-title">Support</h5>
+                                  <div class="footer_menu">
+                                    <ul>
+                                    <li><a href="#">Help</a></li>
+                                    <li><a href="#">Support</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Term &amp; Conditions</a></li>
+                                    <li><a href="#">Help &amp; Support</a></li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg">
+                                <div class="single-footer-widget section_padding_0_130">
+                                  <h5 class="widget-title">Contact</h5>
+                                <div class="footer_menu">
+                                    <ul>
+                                    <li><a href="#">Call Centre</a></li>
+                                    <li><a href="#">Email Us</a></li>
+                                    <li><a href="#">Term &amp; Conditions</a></li>
+                                    <li><a href="#">Help Center</a></li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </footer>
+            </div>
         </>  
     );
 }
