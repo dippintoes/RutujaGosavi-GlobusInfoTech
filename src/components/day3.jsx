@@ -132,7 +132,7 @@ function Day3(){
 
             {/*footer */}
             <div class="container-fluid pt-2">
-                <div class="section5">
+                <div class="section5" id="newsletter">
                     <section>
                         <h1 class="title inline-photo2 show-on-scroll2">Subscribe to our newsletter</h1>
                         <p class="inline-photo show-on-scroll">Get latest news regarding upcoming conferences, stay in touch... </p>

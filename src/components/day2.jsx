@@ -52,32 +52,24 @@ function Day2(){
                     </div>
             </div>
             <div class="container-fluid pt-2">
-                    <div className="program2">
+            <div className="program2">
                         <h2 class="plaprog">Parallel Session 1</h2>
 
-                        <h6 class="plaprog2 d-flex flex-row justify-content-center gap-5 mb-5"><div><a className="p-3">Presenter's Link</a></div><div><a className="p-3">Viewer's Link</a></div><div><a className="p-3">Evaluation Link</a></div></h6>
+                        <h6 class="plaprog2 d-flex flex-row justify-content-center gap-lg-0 gap-md-2 mb-5"><div><a className="p-3">Presenter's Link</a></div><div><a className="p-3">Viewer's Link</a></div><div><a className="p-3">Evaluation Link</a></div></h6>
 
                         <h6 class="plaprog3 d-flex flex-row justify-content-center gap-5 mb-5"><div><i>Moderator: Prof. Ma. Elizabeth Medina</i></div><div><i>Coordinator: Mr. Elmer John Gonzalez</i></div></h6>
 
                         <div class="container mt-5 activities">
                             <div class="row mt-5">   
-                                <div class="col-lg-6">
-                                <div class="recent-activities card">
-                                    <div class="card-close">
-                                    <div class="dropdown">
-                                        <button type="button" id="closeCard8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-ellipsis-v"></i></button>
-                                        <div aria-labelledby="closeCard8" class="dropdown-menu dropdown-menu-right has-shadow"><a href="#" class="dropdown-item remove"> <i class="fa fa-times"></i>Close</a><a href="#" class="dropdown-item edit"> <i class="fa fa-gear"></i>Edit</a></div>
-                                    </div>
-                                    </div>
-                                    
+                                <div class="col-lg-6 col-md-12">
+                                <div class="recent-activities card">                                    
                                     <div class="card-body no-padding">
                                     <div class="item">
                                         <div class="row">
-                                        <div class="col-4 date-holder text-right">
-                                            
+                                        <div class="col-lg-5 col-md-12 date-holder text-right">
                                             <div class="date"> Heritage and Arts for Tourism and Creative Industries (HATCI)</div>
                                         </div>
-                                        <div class="col-8 content">
+                                        <div class="col-lg-7 col-md-12 content">
                                             <h5 className="recent-head text-primary">Villanueva, Fe Corazon
 
 Castro, Carl Francis</h5>
@@ -87,11 +79,11 @@ Castro, Carl Francis</h5>
                                     </div>
                                     <div class="item">
                                         <div class="row">
-                                        <div class="col-4 date-holder text-right">
+                                        <div class="col-lg-5 col-md-12 date-holder text-right">
                                             
                                             <div class="date"> Heritage and Arts for Tourism and Creative Industries (HATCI)</div>
                                         </div>
-                                        <div class="col-8 content">
+                                        <div class="col-lg-7 col-md-12 content">
                                             <h5 className="recent-head text-primary">Villanueva, Fe Corazon
 
 Castro, Carl Francis</h5>
@@ -101,11 +93,11 @@ Castro, Carl Francis</h5>
                                     </div>
                                     <div class="item">
                                         <div class="row">
-                                        <div class="col-4 date-holder text-right">
+                                        <div class="col-lg-5 col-md-12 date-holder text-right">
                                             
                                             <div class="date"> Heritage and Arts for Tourism and Creative Industries (HATCI)</div>
                                         </div>
-                                        <div class="col-8 content">
+                                        <div class="col-lg-7 col-md-12 content">
                                             <h5 className="recent-head text-primary">Villanueva, Fe Corazon
 
 Castro, Carl Francis</h5>
@@ -117,22 +109,15 @@ Castro, Carl Francis</h5>
                                 </div>
                                 </div>
                                 <div class="col-lg-6">
-                                <div class="recent-activities card">
-                                    <div class="card-close">
-                                    <div class="dropdown">
-                                        <button type="button" id="closeCard8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-ellipsis-v"></i></button>
-                                        <div aria-labelledby="closeCard8" class="dropdown-menu dropdown-menu-right has-shadow"><a href="#" class="dropdown-item remove"> <i class="fa fa-times"></i>Close</a><a href="#" class="dropdown-item edit"> <i class="fa fa-gear"></i>Edit</a></div>
-                                    </div>
-                                    </div>
-                                    
+                                <div class="recent-activities card">                                   
                                     <div class="card-body no-padding">
                                     <div class="item">
                                         <div class="row">
-                                        <div class="col-4 date-holder text-right">
+                                        <div class="col-lg-5 col-md-12 date-holder text-right">
                                             
                                             <div class="date"> Heritage and Arts for Tourism and Creative Industries (HATCI)</div>
                                         </div>
-                                        <div class="col-8 content">
+                                        <div class="col-lg-7 col-md-12 content">
                                             <h5 className="recent-head text-primary">Villanueva, Fe Corazon
 
 Castro, Carl Francis</h5>
@@ -142,11 +127,11 @@ Castro, Carl Francis</h5>
                                     </div>
                                     <div class="item">
                                         <div class="row">
-                                        <div class="col-4 date-holder text-right">
+                                        <div class="col-lg-5 col-md-12 date-holder text-right">
                                             
                                             <div class="date"> Heritage and Arts for Tourism and Creative Industries (HATCI)</div>
                                         </div>
-                                        <div class="col-8 content">
+                                        <div class="col-lg-7 col-md-12 content">
                                             <h5 className="recent-head text-primary">Villanueva, Fe Corazon
 
 Castro, Carl Francis</h5>
@@ -156,11 +141,11 @@ Castro, Carl Francis</h5>
                                     </div>
                                     <div class="item">
                                         <div class="row">
-                                        <div class="col-4 date-holder text-right">
+                                        <div class="col-lg-5 col-md-12 date-holder text-right">
                                             
                                             <div class="date"> Heritage and Arts for Tourism and Creative Industries (HATCI)</div>
                                         </div>
-                                        <div class="col-8 content">
+                                        <div class="col-lg-7 col-md-12 content">
                                             <h5 className="text-primary">Villanueva, Fe Corazon
 
 Castro, Carl Francis</h5>
@@ -176,32 +161,24 @@ Castro, Carl Francis</h5>
                     </div>
             </div>
             <div class="container-fluid pt-2">
-                    <div className="program3">
+            <div className="program3">
                         <h2 class="plaprog">Parallel Session 2</h2>
 
-                        <h6 class="plaprog2 d-flex flex-row justify-content-center gap-5 mb-5"><div><a className="p-3">Presenter's Link</a></div><div><a className="p-3">Viewer's Link</a></div><div><a className="p-3">Evaluation Link</a></div></h6>
+                        <h6 class="plaprog2 d-flex flex-row justify-content-center gap-lg-0 gap-md-2 mb-5"><div><a className="p-3">Presenter's Link</a></div><div><a className="p-3">Viewer's Link</a></div><div><a className="p-3">Evaluation Link</a></div></h6>
 
                         <h6 class="plaprog3 d-flex flex-row justify-content-center gap-5 mb-5"><div><i>Moderator: Prof. Ma. Elizabeth Medina</i></div><div><i>Coordinator: Mr. Elmer John Gonzalez</i></div></h6>
 
                         <div class="container mt-5 activities">
                             <div class="row mt-5">   
-                                <div class="col-lg-6">
-                                <div class="recent-activities card">
-                                    <div class="card-close">
-                                    <div class="dropdown">
-                                        <button type="button" id="closeCard8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-ellipsis-v"></i></button>
-                                        <div aria-labelledby="closeCard8" class="dropdown-menu dropdown-menu-right has-shadow"><a href="#" class="dropdown-item remove"> <i class="fa fa-times"></i>Close</a><a href="#" class="dropdown-item edit"> <i class="fa fa-gear"></i>Edit</a></div>
-                                    </div>
-                                    </div>
-                                    
+                                <div class="col-lg-6 col-md-12">
+                                <div class="recent-activities card">                                    
                                     <div class="card-body no-padding">
                                     <div class="item">
                                         <div class="row">
-                                        <div class="col-4 date-holder text-right">
-                                            
+                                        <div class="col-lg-5 col-md-12 date-holder text-right">
                                             <div class="date"> Heritage and Arts for Tourism and Creative Industries (HATCI)</div>
                                         </div>
-                                        <div class="col-8 content">
+                                        <div class="col-lg-7 col-md-12 content">
                                             <h5 className="recent-head text-primary">Villanueva, Fe Corazon
 
 Castro, Carl Francis</h5>
@@ -211,11 +188,11 @@ Castro, Carl Francis</h5>
                                     </div>
                                     <div class="item">
                                         <div class="row">
-                                        <div class="col-4 date-holder text-right">
+                                        <div class="col-lg-5 col-md-12 date-holder text-right">
                                             
                                             <div class="date"> Heritage and Arts for Tourism and Creative Industries (HATCI)</div>
                                         </div>
-                                        <div class="col-8 content">
+                                        <div class="col-lg-7 col-md-12 content">
                                             <h5 className="recent-head text-primary">Villanueva, Fe Corazon
 
 Castro, Carl Francis</h5>
@@ -225,11 +202,11 @@ Castro, Carl Francis</h5>
                                     </div>
                                     <div class="item">
                                         <div class="row">
-                                        <div class="col-4 date-holder text-right">
+                                        <div class="col-lg-5 col-md-12 date-holder text-right">
                                             
                                             <div class="date"> Heritage and Arts for Tourism and Creative Industries (HATCI)</div>
                                         </div>
-                                        <div class="col-8 content">
+                                        <div class="col-lg-7 col-md-12 content">
                                             <h5 className="recent-head text-primary">Villanueva, Fe Corazon
 
 Castro, Carl Francis</h5>
@@ -241,22 +218,15 @@ Castro, Carl Francis</h5>
                                 </div>
                                 </div>
                                 <div class="col-lg-6">
-                                <div class="recent-activities card">
-                                    <div class="card-close">
-                                    <div class="dropdown">
-                                        <button type="button" id="closeCard8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-ellipsis-v"></i></button>
-                                        <div aria-labelledby="closeCard8" class="dropdown-menu dropdown-menu-right has-shadow"><a href="#" class="dropdown-item remove"> <i class="fa fa-times"></i>Close</a><a href="#" class="dropdown-item edit"> <i class="fa fa-gear"></i>Edit</a></div>
-                                    </div>
-                                    </div>
-                                    
+                                <div class="recent-activities card">                                   
                                     <div class="card-body no-padding">
                                     <div class="item">
                                         <div class="row">
-                                        <div class="col-4 date-holder text-right">
+                                        <div class="col-lg-5 col-md-12 date-holder text-right">
                                             
                                             <div class="date"> Heritage and Arts for Tourism and Creative Industries (HATCI)</div>
                                         </div>
-                                        <div class="col-8 content">
+                                        <div class="col-lg-7 col-md-12 content">
                                             <h5 className="recent-head text-primary">Villanueva, Fe Corazon
 
 Castro, Carl Francis</h5>
@@ -266,11 +236,11 @@ Castro, Carl Francis</h5>
                                     </div>
                                     <div class="item">
                                         <div class="row">
-                                        <div class="col-4 date-holder text-right">
+                                        <div class="col-lg-5 col-md-12 date-holder text-right">
                                             
                                             <div class="date"> Heritage and Arts for Tourism and Creative Industries (HATCI)</div>
                                         </div>
-                                        <div class="col-8 content">
+                                        <div class="col-lg-7 col-md-12 content">
                                             <h5 className="recent-head text-primary">Villanueva, Fe Corazon
 
 Castro, Carl Francis</h5>
@@ -280,11 +250,11 @@ Castro, Carl Francis</h5>
                                     </div>
                                     <div class="item">
                                         <div class="row">
-                                        <div class="col-4 date-holder text-right">
+                                        <div class="col-lg-5 col-md-12 date-holder text-right">
                                             
                                             <div class="date"> Heritage and Arts for Tourism and Creative Industries (HATCI)</div>
                                         </div>
-                                        <div class="col-8 content">
+                                        <div class="col-lg-7 col-md-12 content">
                                             <h5 className="text-primary">Villanueva, Fe Corazon
 
 Castro, Carl Francis</h5>
@@ -301,7 +271,7 @@ Castro, Carl Francis</h5>
             </div>
             {/*footer */}
             <div class="container-fluid pt-2">
-                <div class="section5">
+                <div class="section5" id="newsletter">
                     <section>
                         <h1 class="title inline-photo2 show-on-scroll2">Subscribe to our newsletter</h1>
                         <p class="inline-photo show-on-scroll">Get latest news regarding upcoming conferences, stay in touch... </p>

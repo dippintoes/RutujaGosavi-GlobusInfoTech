@@ -18,9 +18,9 @@ function Home(){
                 {/* about*/}        
                 <div class="container-fluid pt-2 about" id="mainabout" name="mainabout">
                     <div class="row">
-                        <div class="col-8" ><h1 class="display-4 my-5 text-danger">About the event</h1><hr/><h4 className="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco.</h4><p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt ut labore et dolore magna aliq enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p><div class="d-flex flex-row gap-3 mt-5">
-                        <button className="bg-info p-3 fs-5 mt-3">Buy a ticket</button><br/><button className="bg-secondary p-3 fs-5 mt-3">Read more</button></div></div>
-                        <div class="col-4 mb-3" id="about"><img src={conference} width="200px" height="350px"/></div>
+                        <div class="col-lg-8 col-md-12" ><h1 class="display-4 my-5 text-danger">About the event</h1><hr/><h4 className="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco.</h4><p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt ut labore et dolore magna aliq enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p><div class="d-flex flex-row gap-3 mt-5">
+                        <a className="btn bg-info p-3 fs-5 mt-3" href="/register">Buy a ticket</a><br/><a className="btn bg-secondary p-3 fs-5 mt-3">Read more</a></div></div>
+                        <div class="col-lg-4 col-md-12 mt-md-4" id="about"><img src={conference} width="200px" height="350px"/></div>
                     </div>
                 </div>
                 {/* speakers*/}
@@ -231,7 +231,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor inc
                 <div class="container-fluid pt-2">
                     <div class="section5" id="newsletter">
                         <section>
-                            <h1 class="title inline-photo2 show-on-scroll2">Subscribe to our newsletter</h1>
+                            <h1 class="title inline-photo2 show-on-scroll2 mt-md-3">Subscribe to our newsletter</h1>
                             <p class="inline-photo show-on-scroll">Get latest news regarding upcoming conferences, stay in touch... </p>
                         </section>
                         <section>

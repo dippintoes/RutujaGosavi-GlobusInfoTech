@@ -3,13 +3,17 @@
   left: 0;
   z-index: 3;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   }
 
   .sub-footer{
     background-color:#142136;
     text-align:Center;
     color:var(--gray);
-    padding:1rem 0;
+    padding:1rem;
     }
-    
+    @media screen and (min-device-width: 320px) and (max-device-width: 576px){
+      .sub-footer{
+padding-right: 2rem;
+font-size: 12px;}
+    }

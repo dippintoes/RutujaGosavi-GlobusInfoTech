@@ -40,7 +40,7 @@
   margin-top: 40px;
 }
 .about{
-  height: 80vh;
+  height: 80%;
 }
 #about img{
   width: 90%;
@@ -59,7 +59,7 @@
   background-size: cover;
   opacity:1;
   width: 100vw;
-  height:160vh;
+  height:160%;
   color: #fff;
   margin-left: -15px;
 }
@@ -81,7 +81,11 @@ color: #333;
   margin: 0 auto;
   border-radius: 50%;
   border: 1px solid #607D8B;
-  padding: 5px;
+}
+.client-img img{
+  width: 100%;
+  height: 100%;
+  margin-left: 0px;
 }
 .box-bg {
   background-color: #fff;
@@ -159,7 +163,7 @@ padding-bottom: 15px;
 }
 
 #schedule{
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 .serviceBox{text-align: center;margin-top: 80px;position: relative; margin-bottom: 121px;}
@@ -364,6 +368,7 @@ webkit-box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
 .footer_social_area a:hover,
 .footer_social_area a:focus {
   color: #ffffff;
+  background-color: #246ce7;
 }
 
 @-webkit-keyframes bi-cycle {
@@ -390,4 +395,80 @@ ol li, ul li {
 ol, ul {
   margin: 0;
   padding: 0;
+}
+
+/*mobile phones*/
+@media screen and (min-device-width: 320px) and (max-device-width: 576px){
+  .header {
+    margin-top: 70px;
+  }
+  .header p {
+    font-weight: 200;
+    letter-spacing: 0.05rem;
+	margin-top: 25px;
+  }
+  .tagline {
+    font-weight: 500;
+	font-size:24px;
+}
+#mainabout{
+  padding: 20px;
+}
+#about{
+  height: 90%;
+  margin-top: 10px;
+}
+
+.about{
+  height: 100%;
+}
+#about img{
+  display: none;
+}
+
+.box-bg {
+  padding: 0px 0px;
+  margin: 25px 0px;
+  margin-top: 40px;
+}
+
+#speakers{
+  width: 100vw;
+  height:160%;
+  color: #fff;
+}
+.our-team {
+  padding: 25px 0px;
+
+}
+
+#schedule{
+  height: 100%;
+  width: 100vw;
+  margin-left: -13px;
+}
+.serviceBox .service-content{padding: 55px 45px;position: relative;}
+
+.serviceBox{text-align: center;margin-top: 40px;position: relative; margin-bottom: 51px;}
+.footer_social_area a {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  line-height: 20px;
+  margin-right: 10px;
+}
+.footer_social_area a:last-child{
+  margin-bottom: 40px;
+
+}
+.single-footer-widget:last-child{
+margin-bottom: 30px;
+}
+#newsletter{
+width: 100vw;
+}
+#footer{
+  width: 100vw;
+}
+
 }
